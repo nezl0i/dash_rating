@@ -1,0 +1,6 @@
+__pycache__
+.idea
+write_sql.py
+dash_rating_c2.py
+dash_rating_copy.py
+sac/*
