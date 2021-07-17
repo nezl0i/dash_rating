@@ -10,6 +10,7 @@ from dash.dependencies import Input, Output
 # external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 external_stylesheets = ['style.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+app.title = 'Рейтинг опроса ПАО "РОССЕТИ КУБАНЬ"'
 # 'rowCount': 3 , 'columnCount': 2
 
 CURRENT_DATE_VCS = '2021-04-05'
